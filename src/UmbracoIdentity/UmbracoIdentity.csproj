@@ -247,6 +247,7 @@
     </Compile>
     <Compile Include="AppBuilderExtensions.cs" />
     <Compile Include="ExternalLoginStore.cs" />
+    <Compile Include="ExternalSqlServerLoginStore.cs" />
     <Compile Include="FixAsyncActionInvokerStartupHandler.cs" />
     <Compile Include="FixedAsyncRenderActionInvoker.cs" />
     <Compile Include="FixedAsyncRenderControllerFactory.cs" />
