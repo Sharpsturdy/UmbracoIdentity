@@ -79,7 +79,7 @@ namespace UmbracoIdentity
             if (externalLoginStore == null)
             {
                 //use the default
-                externalLoginStore = new ExternalLoginStore();
+                externalLoginStore = new ExternalSqlServerLoginStore();
             }
 
             return Create(options, new UmbracoMembersUserStore<T>(memberService, provider, externalLoginStore), membershipProvider);
